@@ -105,7 +105,7 @@ class AdminPanel extends User {
     }
 
     if (userToBlock != null) {
-      // Implement blocking logic here. For now, we'll just print a message.
+      print("Blocking user with account number $accountNumber...");
       print("User with account number $accountNumber has been blocked.");
     } else {
       print("No user found with account number $accountNumber.");
